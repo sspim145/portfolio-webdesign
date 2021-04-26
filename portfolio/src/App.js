@@ -11,13 +11,12 @@ import Home from "./pages/Home/Home";
 import Skills from "./pages/Skills/Skills"
 import Aboutme from "./pages/Aboutme/Aboutme"
 
-export default function App() {
+function App() {
   return (
     <Router>
       <div>
         <Nav/>
-        {/* A <Switch> looks through its children <Route>s and
-            renders the first one that matches the current URL. */}
+        
         <Switch>
           <Route path="/skills">
             <Skills/>
@@ -37,11 +36,4 @@ export default function App() {
   );
 }
 
-function About() {
-  return <h2>About</h2>;
-}
-
-function Users() {
-  return <h2>Users</h2>;
-  
-}
+export default App;
