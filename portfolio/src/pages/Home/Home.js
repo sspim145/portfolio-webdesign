@@ -5,7 +5,7 @@ function Home(){
             <div class="flex flex-row flex-wrap">
                 <div class="w-1/2 h-96 bg-red-200 justify-center">
                     <div class="bg-green-200 content-center">
-                    <p class="text-2xl">Hi I'm Pimwaree</p>
+                    <p class="text-2xl">Hi I'm Pimwaree k</p>
                     <p class="text-base">I am studying at King Mongkut's Institute of 
                         Technology Ladkrabang. Faculty of Information Technology,The field of Multimedia and Game Development</p>
                     <p class="text-base">Email : pim_waree@hotmail.com</p>
