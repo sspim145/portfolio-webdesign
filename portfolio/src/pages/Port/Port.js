@@ -8,19 +8,27 @@ import {
 
 function Port(){
     return(
-        <div>
-            <p>Port</p>
-            <div class="w-full bg-gray-200">
-                <p class="text-2xl">My projects</p>
-                <p class="text-base">description</p>
-            </div>
-            <div class="flex flex-row">
-                        <a href="/port/project1"><div class="w-20 h-12 bg-green-100">
-                            <p class="text-base">1</p></div></a>
-                        <a href="/port/project2"><div class="w-20 h-12 bg-green-100">
-                            <p class="text-base">2</p></div></a>
-                        <a href="/port/project3"><div class="w-20 h-12 bg-green-100">
-                            <p class="text-base">3</p></div></a>
+        <div class="pt-20">
+            
+            <div class="grid sm:grid-cols-3 md:grid-cols-6 gap-4 p-5">
+                <a href="/port/project6">
+                <center>
+                <div class="h-10 rounded-md bg-black hover:bg-yellow-500 text-white pt-2 pb-2">Graphic Design</div></center></a>
+                <a href="/port/project1">
+                <center>
+                <div class="h-10 rounded-md bg-black hover:bg-yellow-500 text-white pt-2 pb-2">Animation</div></center></a>
+                <a href="/port/project2">
+                <center>
+                <div class="h-10 rounded-md bg-black hover:bg-yellow-500 text-white pt-2 pb-2">Object Model</div></center></a>
+                <a href="/port/project3">
+                <center>
+                <div class="h-10 rounded-md bg-black hover:bg-yellow-500 text-white pt-2 pb-2">Website</div></center></a>
+                <a href="/port/project4">
+                <center>
+                <div class="h-10 rounded-md bg-black hover:bg-yellow-500 text-white pt-2 pb-2">Game Map</div></center></a>
+                <a href="/port/project5">
+                <center>
+                <div class="h-10 rounded-md bg-black hover:bg-yellow-500 text-white pt-2 pb-2">2D Game</div></center></a>
             </div>
             <Router>
                 <div>
@@ -36,6 +44,15 @@ function Port(){
                     <Route path="/port/project3">
                         <Project3/>
                     </Route>
+                    <Route path="/port/project4">
+                        <Project4/>
+                    </Route>
+                    <Route path="/port/project5">
+                        <Project5/>
+                    </Route>
+                    <Route path="/port/project6">
+                        <Project6/>
+                    </Route>
                     </Switch>
                 </div>
             </Router>
@@ -45,14 +62,14 @@ function Port(){
 function Project1() {
     return (
         <div>
-            <div class="flex flex-row flex-wrap">
-                <div class="w-1/2 h-96 bg-red-200">
-                    <p class="text-2xl">Project 1</p>
-                    <p class="text-2xl">UX designer</p>
-                    <p class="text-2xl">I'm study....</p>
+            <div class="grid md:grid-cols-2 sm:grid-cols-1 items-center justify-items-center h-screen">
+                <div class="w-3/5">
+                    <p class="text-2xl">Covid-19 Animation</p>
+                    <p class="text-base">This work is part of Computer Graphics and Animation.The animation depicts a story of safety during the COVID-19 epidemic. The items created in this work are one character models and most of the object models. By applying the knowledge of texturing and lighting, the workpiece will be perfected.</p>
                 </div>
-                <div class="w-1/2 h-96 bg-red-400">
-                    <img src="https://via.placeholder.com/300x300" className=""></img>
+                <div>
+                    <iframe width="540" height="300" src="https://www.youtube.com/embed/5r_eFA-8Nx4" 
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
@@ -61,14 +78,13 @@ function Project1() {
 function Project2() {
     return (
         <div>
-            <div class="flex flex-row flex-wrap">
-                <div class="w-1/2 h-96 bg-red-200">
-                    <p class="text-2xl">Project 2</p>
-                    <p class="text-2xl">UX designer</p>
-                    <p class="text-2xl">I'm study....</p>
+            <div class="grid md:grid-cols-2 sm:grid-cols-1 items-center justify-items-center h-screen">
+                <div class="w-3/5">
+                    <p class="text-2xl">Showreel Object Model</p>
+                    <p class="text-base">This work is part of Computer Graphics and Animation. This work is a compilation of all custom-built object models. It is displayed in two types: model shape and finished model.</p>
                 </div>
-                <div class="w-1/2 h-96 bg-red-400">
-                    <img src="https://via.placeholder.com/300x300" className=""></img>
+                <div>
+                    <iframe width="540" height="300" src="https://www.youtube.com/embed/oWr2w9l67P8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
@@ -77,14 +93,89 @@ function Project2() {
 function Project3() {
     return (
         <div>
-            <div class="flex flex-row flex-wrap">
-                <div class="w-1/2 h-96 bg-red-200">
-                    <p class="text-2xl">Project 3</p>
-                    <p class="text-2xl">UX designer</p>
-                    <p class="text-2xl">I'm study....</p>
+            <div class="grid md:grid-cols-2 sm:grid-cols-1 items-center justify-items-center h-screen">
+                <div class="w-3/5">
+                    <p class="text-2xl">That's How Human Begin Website</p>
+                    <p class="text-base">This work is part of Multimedia Programming. Which this project will come on the topic of superior wisdom, which is an enormous treasure The website presents the evolution of humans since the birth of the world. It lets users try to choose their own evolutionary path like A or B game.</p>
+                    <br></br>
+                    <a href="https://how-human-begin.netlify.app/"><p class="text-base hover:text-black text-yellow-500">Website : https://how-human-begin.netlify.app</p></a>
                 </div>
-                <div class="w-1/2 h-96 bg-red-400">
-                    <img src="https://via.placeholder.com/300x300" className=""></img>
+                <div>
+                <iframe width="540" height="300" src="https://www.youtube.com/embed/KGzXaUC3CjE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    );
+}
+function Project4() {
+    return (
+        <div>
+            <div class="grid md:grid-cols-2 sm:grid-cols-1 items-center justify-items-center h-screen">
+                <div class="w-3/5">
+                    <p class="text-2xl">The Reveries Map</p>
+                    <p class="text-base">This work is part of Advance Game Development. The project itself was inspired by the Rococo era landscape scene. It is a picture that gives the feeling of being in a dream with the color tone being soft. It consists of a rocky hill and a large river in the middle. Which is the origin of the name "The Reveries"</p>
+                </div>
+                <div>
+                    <iframe width="540" height="300" src="https://www.youtube.com/embed/2mAWbepYIRc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    );
+}
+
+function Project5() {
+    return (
+        <div>
+            <div class="grid md:grid-cols-2 sm:grid-cols-1 items-center justify-items-center h-screen">
+                <div class="w-3/5">
+                    <p class="text-2xl">Cat me if you cat game</p>
+                    <p class="text-base">This work is part of Game Design and Development. This game is a 2D game. Side scrolling and it's an action game. The main character is a cat thief who must fight a witch and his minions to help others in their village to escape the famine.</p>
+                </div>
+                <div>
+                    <iframe width="540" height="300" src="https://www.youtube.com/embed/OaABJdPX7Dk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    );
+}
+
+function Project6() {
+    return (
+        <div>
+            <div class="grid md:grid-cols-2 sm:grid-cols-1 items-center justify-items-center sm:h-full md:h-screen">
+                <div class="w-300">
+                    <img src="https://cdn.discordapp.com/attachments/836229450932027434/836581166144421898/head_145.png"></img>
+                </div>
+                <div class="w-3/5">
+                    <p class="text-2xl">Logo Design</p>
+                    <p class="text-base">This work is part of Multimedia Programming. Which this project will come on the topic of superior wisdom, which is an enormous treasure The website presents the evolution of humans since the birth of the world. It lets users try to choose their own evolutionary path like A or B game.</p>
+                </div>
+            </div>
+            <div class="grid md:grid-cols-2 sm:grid-cols-1 items-center justify-items-center sm:h-full md:h-screen">
+                <div class="w-3/5">
+                    <p class="text-2xl">Poster Design</p>
+                    <p class="text-base">This work is part of Multimedia Programming. Which this project will come on the topic of superior wisdom, which is an enormous treasure The website presents the evolution of humans since the birth of the world. It lets users try to choose their own evolutionary path like A or B game.</p>
+                </div>
+                <div>
+                    <img src="https://cdn.discordapp.com/attachments/836229450932027434/836580912539107338/final_61070145-1.jpg"></img>
+                </div>
+            </div>
+            <div class="grid md:grid-cols-2 sm:grid-cols-1 items-center justify-items-center sm:h-full md:h-screen">
+                <div>
+                    <img src="https://cdn.discordapp.com/attachments/836229450932027434/836580920601477120/final_61070145-2.jpg"></img>
+                </div>
+                <div class="w-3/5">
+                    <p class="text-2xl">Poster Design</p>
+                    <p class="text-base">This work is part of Multimedia Programming. Which this project will come on the topic of superior wisdom, which is an enormous treasure The website presents the evolution of humans since the birth of the world. It lets users try to choose their own evolutionary path like A or B game.</p>
+                </div>
+            </div>
+            <div class="grid md:grid-cols-2 sm:grid-cols-1 items-center justify-items-center sm:h-full md:h-screen">
+                <div>
+                    <img src="https://media.discordapp.net/attachments/836229450932027434/836580703537856562/assm_145.png?width=1155&height=663"></img>
+                </div>
+                <div class="w-3/5">
+                    <p class="text-2xl">Typography Design</p>
+                    <p class="text-base">This work is part of Multimedia Programming. Which this project will come on the topic of superior wisdom, which is an enormous treasure The website presents the evolution of humans since the birth of the world. It lets users try to choose their own evolutionary path like A or B game.</p>
                 </div>
             </div>
         </div>

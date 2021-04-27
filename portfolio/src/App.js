@@ -8,7 +8,7 @@ import {
 import Nav from "./components/Nav/Nav"
 import Port from "./pages/Port/Port";
 import Home from "./pages/Home/Home";
-import Skills from "./pages/Skills/Skills"
+import Activity from "./pages/Activity/Activity"
 import Aboutme from "./pages/Aboutme/Aboutme"
 
 function App() {
@@ -18,8 +18,8 @@ function App() {
         <Nav/>
         
         <Switch>
-          <Route path="/skills">
-            <Skills/>
+          <Route path="/activity">
+            <Activity/>
           </Route>
           <Route path="/port">
             <Port/>
