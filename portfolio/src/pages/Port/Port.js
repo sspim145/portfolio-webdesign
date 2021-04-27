@@ -148,13 +148,13 @@ function Project6() {
                 </div>
                 <div class="w-3/5">
                     <p class="text-2xl">Logo Design</p>
-                    <p class="text-base">This work is part of Multimedia Programming. Which this project will come on the topic of superior wisdom, which is an enormous treasure The website presents the evolution of humans since the birth of the world. It lets users try to choose their own evolutionary path like A or B game.</p>
+                    <p class="text-base">This work is a logo design from the word dream catcher. Each design is inspired by the origin story of the dreamcatcher and the shape, structure, materials and meaning.</p>
                 </div>
             </div>
             <div class="grid md:grid-cols-2 sm:grid-cols-1 items-center justify-items-center sm:h-full md:h-screen">
                 <div class="w-3/5">
-                    <p class="text-2xl">Poster Design</p>
-                    <p class="text-base">This work is part of Multimedia Programming. Which this project will come on the topic of superior wisdom, which is an enormous treasure The website presents the evolution of humans since the birth of the world. It lets users try to choose their own evolutionary path like A or B game.</p>
+                    <p class="text-2xl">Poster Design I</p>
+                    <p class="text-base">The poster is designed based on the logo designed above. The first poster was designed in a soft tone, looking comfortable on the eyes, creating a swaying feel like a feather attached to the rope end of a dream catcher.</p>
                 </div>
                 <div>
                     <img src="https://cdn.discordapp.com/attachments/836229450932027434/836580912539107338/final_61070145-1.jpg"></img>
@@ -165,8 +165,8 @@ function Project6() {
                     <img src="https://cdn.discordapp.com/attachments/836229450932027434/836580920601477120/final_61070145-2.jpg"></img>
                 </div>
                 <div class="w-3/5">
-                    <p class="text-2xl">Poster Design</p>
-                    <p class="text-base">This work is part of Multimedia Programming. Which this project will come on the topic of superior wisdom, which is an enormous treasure The website presents the evolution of humans since the birth of the world. It lets users try to choose their own evolutionary path like A or B game.</p>
+                    <p class="text-2xl">Poster Design II</p>
+                    <p class="text-base">The second poster is designed in flashy black and yellow, referring to the legend of the Dream Catcher born by the Indians. That created a dream catcher as a protective amulet.</p>
                 </div>
             </div>
             <div class="grid md:grid-cols-2 sm:grid-cols-1 items-center justify-items-center sm:h-full md:h-screen">
@@ -175,7 +175,7 @@ function Project6() {
                 </div>
                 <div class="w-3/5">
                     <p class="text-2xl">Typography Design</p>
-                    <p class="text-base">This work is part of Multimedia Programming. Which this project will come on the topic of superior wisdom, which is an enormous treasure The website presents the evolution of humans since the birth of the world. It lets users try to choose their own evolutionary path like A or B game.</p>
+                    <p class="text-base">This work is designed from pieces of the English alphabet that make up the word Pimwaree. With all parts being assembled perfectly together.</p>
                 </div>
             </div>
         </div>

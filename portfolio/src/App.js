@@ -10,6 +10,7 @@ import Port from "./pages/Port/Port";
 import Home from "./pages/Home/Home";
 import Activity from "./pages/Activity/Activity"
 import Aboutme from "./pages/Aboutme/Aboutme"
+import Footer from "./components/Footer/Footer"
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
             <Home/>
           </Route>
         </Switch>
+        <Footer/>
       </div>
     </Router>
   );
